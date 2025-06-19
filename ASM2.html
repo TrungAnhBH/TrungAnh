@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body{
+            width: 100%;
+            margin: auto;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            background-color: #ffe101;
+            align-items: center;
+            gap: 80px;
+            height: 54px;
+            line-height: 54px;
+            padding: 10px 20px;
+            text-align: center;
+            box-shadow: 0 0 5px gray;
+        }
+        nav a{
+            padding: 8px 16px;
+            text-decoration: none;
+            color: #000000;
+        }
+        nav a:hover{
+            color: rgb(255, 114, 14);
+        }
+        nav img{
+            width: 100px;
+            height: auto;   
+            padding-left: 0;
+            margin-right: 20px;
+
+        }
+        .banner img{
+            height: 500px;
+            width: auto;
+        }
+        /* main */
+        .container{
+            width: 90%;
+            margin:auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .col-4 img{
+            justify-content: center;
+            width: 150px;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+        }
+        
+        .product-list{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-item{
+            width: calc(25% - 20px);
+            border: 2px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+        }
+        .product-list img{
+            width: 100%;
+        }
+        .banner img{
+            width: 100%;
+            height: auto;
+        }
+        main .map iframe{
+            width: 100%;
+        }
+        main img{
+            width: 100%;
+            height: auto;
+        }
+        main img:hover{
+            box-shadow: 0 0 15px rgb(239, 209, 57);
+        }
+        .product-list .product-item button{
+            padding:15px 5px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        .product-list .product-item button:hover{
+            background-color: orange;
+        }
+        footer{
+            width: 100%;
+            margin: auto;
+            background-color:#ffe101;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0 5px gray;
+        }
+        footer .col-4 {
+            flex: 1;
+            max-width: 33.33%;
+            box-sizing: border-box;
+            padding: 50px;
+        }
+        .col-4 img{
+            height: 100%;
+            width: 100%;
+        }
+        .col-4{
+            text-align: center;
+        }
+        footer a{
+            padding: 20px;
+            justify-content: center;    
+            align-items: center;
+            color: rgb(0, 0, 0);
+        }
+        footer .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logotgdd.jpg" alt="">
+            <a href="ASM2.html"> <i class="fa-solid fa-house"></i> Trang chủ</a>
+            <a href="sanpham.html"> <i class="fa-solid fa-list"></i> Sản phẩm</a>
+            <a href="giohang.html"> <i class="fa-solid fa-cart-plus"></i></i> Giỏ hàng</a>
+            <a href="dangky.html">  <i class="fa-solid fa-user-plus"> </i> Đăng ký</a>
+            <a href="dangnhap.html"> <i class="fa-solid fa-user"></i> Đăng nhập</a>
+        </nav>
+         <div class="banner">
+            <img src="/img/bannertgdd.jpg" alt="">
+        </div>
+       
+    </header>
+    <main>
+        <h2  class="title"> Khuyến mãi </h2>
+        <div class="container">
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="/img/dienthoai1.jpg" alt="">
+                    <h3> Realme C71 <br> 4.490.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai2.jpg" alt="" >
+                    <h3> Redme Note 14 PRO <br> 9.490.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai3.jpg" alt="" >
+                    <h3> Iphone 16 Pro Max <br> 30.590.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai4.jpg" alt="">
+                    <h3> Samsung galaxy S25 <br> 28.190.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai5.jpg" alt="">
+                    <h3> Samsung galaxy A56 <br> 11.690.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai6.jpg" alt="">
+                    <h3> Vivo V50 lite <br> 8.990.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai7.jpg" alt="">
+                    <h3> OPPO Reno 13 <br> 14.490.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+                <div class="product-item">
+                    <img src="/img/dienthoai8.jpg" alt="">
+                    <h3> OPPO Find N5 <br> 44.990.000 <sup>đ</sup> </h3>
+                    <button> Đặt mua </button>
+                </div>
+            </div>
+        <br>
+        <br>
+
+          <br>
+        <br>
+<!-- Tin tuc -->
+        <img src="img/banner2.jpg" alt="">
+    </main>
+    <br>
+    <br>
+    <footer>
+        <div class="row">
+  <!-- Cột 1 -->
+  <div class="col-4">
+    <img src="/img/logotgdd.jpg" alt="">
+  </div>
+
+  <!-- Cột 2: DỮ LIỆU MỚI -->
+  <div class="col-4">
+     <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31348.00408351183!2d106.6195895!3d10.849484799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a319ffb8a75%3A0x4a3882da065670aa!2sGalaxy%20Cinema%20Trung%20Ch%C3%A1nh!5e0!3m2!1svi!2s!4v1749537883804!5m2!1svi!2s" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Cột 3 (hiện đang chứa các icon mạng xã hội và thông tin liên hệ) -->
+  <div class="col-4">
+    <h3>Fanbage chính thức</h3>
+    <a href=""><i class="fa-brands fa-facebook-f"style="color: blue;"></i></a>  
+    <a href=""><i class="fa-brands fa-youtube"style="color: red;"></i></a>
+    <a href=""><i class="fa-brands fa-tiktok"style="color: black;"></i></a>
+    <a href=""><i class="fa-brands fa-wikipedia-w"style="color: black;"></i></a>    
+    <div>
+      <h4 style="color: #ff6a00">THÔNG TIN LIÊN HỆ</h4>
+      <p>Điện thoại: 0123456789<br>Email: caodang@fpt.edu.vn</p>
+    </div>
+  </div>
+</div>        
+    </footer>
+</body>
+</html>

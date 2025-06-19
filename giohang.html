@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        body{
+            width: 100%;
+            margin: auto;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            background-color: #ffe101;
+            align-items: center;
+            gap: 80px;
+            height: 54px;
+            line-height: 54px;
+            padding: 10px 20px;
+            text-align: center;
+            box-shadow: 0 0 5px gray;
+        }
+        nav a{
+            padding: 8px 16px;
+            text-decoration: none;
+            color: #000000;
+        }
+        nav a:hover{
+            color: rgb(255, 114, 14);
+        }
+        nav img{
+            width: 100px;
+            height: auto;   
+            padding-left: 0;
+            margin-right: 20px;
+
+        }
+        .banner img{
+            height: 500px;
+            width: auto;
+        }
+        /* main */
+        .container{
+            width: 90%;
+            margin:auto;
+            justify-content: center;
+            align-items: center;
+        }
+        .col-4 img{
+            justify-content: center;
+            width: 150px;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+        }
+        
+        .product-list{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .product-item{
+            width: calc(25% - 20px);
+            border: 2px solid gray;
+            border-radius: 10px 10px 10px 10px;
+            text-align: center;
+        }
+        .product-list img{
+            width: 100%;
+        }
+        .banner img{
+            width: 100%;
+            height: auto;
+        }
+        main .map iframe{
+            width: 100%;
+        }
+        main img{
+            width: 100%;
+            height: auto;
+        }
+        main img:hover{
+            box-shadow: 0 0 15px rgb(239, 209, 57);
+        }
+        .product-list .product-item button{
+            padding:15px 5px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        .product-list .product-item button:hover{
+            background-color: orange;
+        }
+        footer{
+            width: 100%;
+            margin: auto;
+            background-color:#ffe101;
+            color: rgb(0, 0, 0);
+            box-shadow: 0 0 5px gray;
+        }
+        footer .col-4 {
+            flex: 1;
+            max-width: 33.33%;
+            box-sizing: border-box;
+            padding: 50px;
+        }
+        .col-4 img{
+            height: 100%;
+            width: 100%;
+        }
+        .col-4{
+            text-align: center;
+        }
+        footer a{
+            padding: 20px;
+            justify-content: center;    
+            align-items: center;
+            color: rgb(0, 0, 0);
+        }
+        footer .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        body{
+    width: 100%;
+    margin: auto;
+}
+.container1{
+    width: 50%;
+    margin:50px auto;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+.left table{
+    width: calc(75%-10px);
+    border: 1px solid rgb(216, 214, 214);
+    margin: 5px;
+    border-collapse: collapse;
+}
+.right table{
+    width: calc(25%-10px);
+    border: 1px solid rgb(216, 214, 214);
+    margin: 5px;
+    border-collapse: collapse;
+}
+.bold-1{
+    font-weight: bold;
+}
+th,td{
+    border: 1px solid rgb(226, 224, 224);
+    text-align: center;
+    padding:15px;
+}
+th{
+    background-color: rgb(229, 229, 229);
+}
+form{
+    width:100%;
+    margin: auto;
+    justify-items: center;
+}
+.button button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fbff00;
+    border: gray;
+    box-shadow: 0 0 3px gray;
+    color:rgb(0, 0, 0);
+    margin: 0 10px;
+}
+.button button:hover{
+    background-color: rgb(255, 179, 0);
+    cursor: pointer;
+    color: #000000;
+}
+.left input{
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(201, 199, 199);
+} 
+.right tr td{
+    padding: 28.5px;
+} 
+th{
+    border: none;
+}
+.no-bold{
+    font-weight:500;
+}
+.product-1{
+    width:220px;
+}
+.price-1{
+    width: 200px;
+}
+.quantity-1{
+    width: 150px;
+}
+.total-2{
+    width:200px;
+}
+   
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logotgdd.jpg" alt="">
+            <a href="ASM2.html"> <i class="fa-solid fa-house"></i> Trang chủ</a>
+            <a href="sanpham.html"> <i class="fa-solid fa-list"></i> Sản phẩm</a>
+            <a href="giohang.html"> <i class="fa-solid fa-cart-plus"></i></i> Giỏ hàng</a>
+            <a href="dangky.html">  <i class="fa-solid fa-user-plus"> </i> Đăng ký</a>
+            <a href="dangnhap.html"> <i class="fa-solid fa-user"></i> Đăng nhập</a>
+        </nav>
+       
+    </header>
+    <main>
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bailamthem_lab11.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="left">
+            <table>
+                <tr>
+                    <th></th>
+                    <th class="no-bold" class="product-1"> Product Image</th>
+                    <th class="no-bold"> Name</th>
+                    <th class="no-bold" class="price-1"> Price</th>
+                    <th class="no-bold" class="quantity-1"> Quantity</th>
+                    <th class="no-bold"> Total</th>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td class="product-1"><img src="https://cdn.tgdd.vn/Products/Images/42/332938/xiaomi-redmi-note-14-pro-thumbnew-600x600.jpg" alt="" width="60px"></td>
+                    <td> Redme Note 14 PRO</td>
+                    <td class="price-1">9.490.000</td>
+                    <td class="quantity-1"><input type="number" value=0></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td class="product-1"> <img src="https://cdn.tgdd.vn/Products/Images/42/329149/iphone-16-pro-max-sa-mac-thumb-1-600x600.jpg" alt="" width="60px"> </td>
+                    <td> Iphone 16 Pro Max</td>
+                    <td class="price-1">30.590.000</td>
+                   <td class="quantity-1"><input type="number" value=0></td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-xmark"></i></td>
+                    <td class="product-1"> <img src="https://cdn.tgdd.vn/Products/Images/42/335955/samsung-galaxy-s25-edge-sliver-thumb-600x600.jpg" alt="" width="60px"></td>
+                    <td> Samsung Galaxy S25</td>
+                    <td class="price-1">28.190.000</td>
+                    <td class="quantity-1"><input type="number" value=0></td>
+                    <td class="price-1">1</td>
+                </tr>
+        </tr>
+    </table>
+        </div>
+        <div class="right">
+            <table>
+                <tr>
+                    <th class="no-bold"> Total</th>
+                    <th class="no-bold"> Price</th>
+                </tr>
+                <tr>
+                    <td class="bold-1" class="total-2">Tổng phụ: </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td class="bold-1"class="total-2">Tiền ship: </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td class="bold-1" class="total-2" >Tổng tiền:</td>
+                    <td> 0 <td>
+                </tr>
+                </tr>
+            </table>
+            <br>
+            <form action="" method="post">
+                    <div class="button">
+                        <button> Update Cart </button>
+                        <button> Check Out </button>
+                    </div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html> 
+    </main>
+    <br>
+    <br>
+    <footer>
+        <div class="row">
+  <!-- Cột 1 -->
+  <div class="col-4">
+    <img src="/img/logotgdd.jpg" alt="">
+  </div>
+
+  <!-- Cột 2: DỮ LIỆU MỚI -->
+  <div class="col-4">
+     <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31348.00408351183!2d106.6195895!3d10.849484799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752a319ffb8a75%3A0x4a3882da065670aa!2sGalaxy%20Cinema%20Trung%20Ch%C3%A1nh!5e0!3m2!1svi!2s!4v1749537883804!5m2!1svi!2s" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Cột 3 (hiện đang chứa các icon mạng xã hội và thông tin liên hệ) -->
+  <div class="col-4">
+    <h3>Fanbage chính thức</h3>
+    <a href=""><i class="fa-brands fa-facebook-f"style="color: blue;"></i></a>  
+    <a href=""><i class="fa-brands fa-youtube"style="color: red;"></i></a>
+    <a href=""><i class="fa-brands fa-tiktok"style="color: black;"></i></a>
+    <a href=""><i class="fa-brands fa-wikipedia-w"style="color: black;"></i></a>    
+    <div>
+      <h4 style="color: #ff6a00">THÔNG TIN LIÊN HỆ</h4>
+      <p>Điện thoại: 0123456789<br>Email: caodang@fpt.edu.vn</p>
+    </div>
+  </div>
+</div>        
+    </footer>
+</body>
+</html>
